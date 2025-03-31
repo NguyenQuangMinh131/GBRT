@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.multioutput import MultiOutputRegressor
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
-from sklearn.model_selection import train_test_split  # 🔹 Thêm dòng này
+from sklearn.model_selection import train_test_split  
 
 # --- Bước 1: Đọc và tiền xử lý dữ liệu ---
 file_path = "AQI-Air-Quality-HaNoi.csv"
